@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-status',
   template: `
     <h4>
-      status works!
+      404 Error . Requested Page is not fount
     </h4>
   `,
   styles: [
-    "h4{color:green}"
+    "h4{color:red;font-size:50px}"
   ]
 })
 export class StatusComponent {
